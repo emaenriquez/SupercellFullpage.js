@@ -37,7 +37,7 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 19px;
-    color: #041562;
+    color: #FFC900;
     transition: .5s ease;
 }
 
@@ -87,11 +87,11 @@
 
 /* menu de fullpage */
 #fp-nav ul li a span {
-    background-color: #041562;
+    background-color: #FFC900;
 }
 
 #fp-nav ul li .fp-tooltip {
-    color: #fff;
+    color: #FFC900;
 }
 
 /* clase de splide fullpage */
