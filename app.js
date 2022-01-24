@@ -11,7 +11,7 @@ const web = new fullpage('#fullpage', {
     navigation: true,
 
     // cambia los colores de la seciones
-    sectionsColor: ['#000', '#EEEEEE', '#11468F', '#DA1212'],
+    sectionsColor: ['#000', '#EEEEEE',  '#041562', '#11468F'],
 
     css3: true,
     loopBottom: true,
