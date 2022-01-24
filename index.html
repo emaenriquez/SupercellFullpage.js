@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+
+   <nav class="nav-contenedor">
+    <ul id="myMenu" class="menu">
+        <li data-menuanchor="inicio" class="active"><a href="#inicio">inicio</a></li>
+        <li data-menuanchor="juegos"><a href="#juegos">juegos</a></li>
+        <li data-menuanchor="personajes"><a href="#personajes">Personajes</a></li>
+        <li data-menuanchor="redes"><a href="#redes">redes Sociales</a></li>
+    </ul>
+   </nav>
+    
+    <div id="fullpage" class="contenedor">
+
+        <div class="section header" data-anchor="slide1">
+            <!-- <img src="./supercellbanner.jpg">  -->
+        </div>
+        <div class="section section-juegos" data-anchor="slide2">
+
+            <div class="slide slide-juegos-inicio slide-juegos"><p class="texto">Juegos</p></div>
+            <div class="slide slide-juegos-clash-royale slide-juegos"><p class="texto">Clash Royale</p></div>
+            <div class="slide slide-juegos-clash-of-clans slide-juegos"><p class="texto">Clash of Clans</p></div>
+            <div class="slide slide-juegos-brawl-stars slide-juegos"><p class="texto">Brawl Stars</p></div>
+        </div>
+
+        <div class="section" data-anchor="slide3">
+            <div class="slide"><p class="texto">Personajes</p></div>
+
+            <div class="slide texto">Caballero</div>
+            <div class="slide texto">Princesa</div>
+            <div class="slide texto">Mini Pekka</div>
+            <div class="slide texto">P.E.K.K.A</div>
+        </div>
+        <div class="section" data-anchor="slide4">Redes Sociales</div>
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
