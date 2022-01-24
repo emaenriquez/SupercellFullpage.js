@@ -13,21 +13,27 @@
 }
 
 .header {
-    background-image: url("./img/super1.jpg");
-    width: 100%;
+    background-image: url("./img/supercell.png");
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .nav-contenedor {
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     z-index: 70;
     width: 100%;
     margin: 0;
     padding: 10px 20px;
+}
+
+@media screen and (min-width: 768px){
+    .nav-contenedor{
+        display: inline-flex;
+        justify-content: flex-end;
+    }
 }
 
 .nav-contenedor li,
@@ -36,8 +42,7 @@
     margin: 10px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 19px;
-    color: #FFC900;
+        color: #FFC900;
     transition: .5s ease;
 }
 
@@ -130,6 +135,6 @@
 
 @media screen and (min-width: 768px) {
     .menu li a {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
