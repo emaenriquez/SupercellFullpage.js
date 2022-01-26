@@ -11,44 +11,78 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
     <link rel="stylesheet" href="estilos.css">
-    <title>Document</title>
+    <title>SuperCell</title>
 </head>
 <body>
 
    <nav class="nav-contenedor">
+
     <ul id="myMenu" class="menu">
         <li data-menuanchor="inicio" class="active"><a href="#inicio">inicio</a></li>
         <li data-menuanchor="juegos"><a href="#juegos">juegos</a></li>
         <li data-menuanchor="personajes"><a href="#personajes">Personajes</a></li>
         <li data-menuanchor="redes"><a href="#redes">redes Sociales</a></li>
     </ul>
+
    </nav>
     
-    <div id="fullpage" class="contenedor">
+    <main id="fullpage" class="contenedor">
 
-        <div class="section header" data-anchor="slide1">
-            <!-- <img src="./supercellbanner.jpg">  -->
-        </div>
-        <div class="section section-juegos" data-anchor="slide2">
+        <header class="section header" data-anchor="slide1"></header>
 
-            <div class="slide slide-juegos-inicio slide-juegos"><p class="texto">Juegos</p></div>
-            <div class="slide slide-juegos-clash-royale slide-juegos"><p class="texto">Clash Royale</p></div>
-            <div class="slide slide-juegos-clash-of-clans slide-juegos"><p class="texto">Clash of Clans</p></div>
-            <div class="slide slide-juegos-brawl-stars slide-juegos"><p class="texto">Brawl Stars</p></div>
-        </div>
+        <section class="section section-juegos" data-anchor="slide2">
 
-        <div class="section" data-anchor="slide3">
-            <div class="slide"><p class="texto">Personajes</p></div>
+            <article class="slide slide-juegos-inicio slide-juegos">
+                <p class="texto">Juegos</p>
+            </article>
 
-            <div class="slide texto">Caballero</div>
-            <div class="slide texto">Princesa</div>
-            <div class="slide texto">Mini Pekka</div>
-            <div class="slide texto">P.E.K.K.A</div>
-        </div>
-        <div class="section" data-anchor="slide4">Redes Sociales</div>
+            <article></article> class="slide slide-juegos-clash-royale slide-juegos">
+                <p class="texto">Clash Royale</p>
+            </article>
 
-    </div>
-    
+            <article class="slide slide-juegos-clash-of-clans slide-juegos">
+                <p class="texto">Clash of Clans</p>
+            </article>
+
+            <article class="slide slide-juegos-brawl-stars slide-juegos">
+                <p class="texto">Brawl Stars</p>
+            </article>
+
+        </section>
+
+        <section class="section section-personajes" data-anchor="slide3">
+
+            <article class="slide">
+                <p class="texto">Personajes</p>
+            </article>
+
+            <article class="slide texto article-personajes">
+                <p class="titulo-personajes titulo-personajes-bruja">BRUJA</p>
+                <img src="./personajes/bruja.png" class="img-personajes-slide img-bruja">
+            </article>
+
+            <article class="slide texto article-personajes">
+                <p class="titulo-personajes titulo-personajes-pekka">P.E.K.K.A</p>
+                <img src="./personajes/pekka.png" class="img-personajes-slide img-pekka">
+            </article>
+
+            <article class="slide texto article-personajes article-personajes-reina">
+
+                <p class="titulo-personajes titulo-personajes-reina">REINA<br>ARQUERA</p>
+
+                <img src="./personajes/reina-arquera.png" class="img-personajes-slide img-reina">
+            </article>
+
+            <article class="slide texto article-personajes">
+                <p class="titulo-personajes titulo-personajes-spike">SPIKE</p>
+                <img src="./personajes/spike.png" class="img-personajes-slide img-spike">
+            </article>
+
+        </section>
+
+        <article class="section" data-anchor="slide4">Redes Sociales</article>
+
+    </main> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js"></script>
     <script src="app.js"></script>
 </body>
